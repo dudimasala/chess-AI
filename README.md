@@ -1,2 +1,2 @@
 # new-chess-AI
-Open source. Credit me if you develop this further
+My first open source chess engine. Credit me if you develop this further
