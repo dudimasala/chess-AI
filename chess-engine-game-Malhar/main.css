@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.upperdiv {
+    position: absolute;
+    top: 47%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    width: 670px;
+    height: 670px;
+    font-size: 1.5rem;
+}
+
+.move-log {
+    position: absolute;
+    left: 47%;
+    top: 97%;
+    font-family: sans-serif;
+}
+
+.move {
+    position: absolute;
+    top: 95%;
+    left: 2%;
+}
+
+.board {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+    height: 610px;
+    width: 610px;
+}
+
+h2 {
+    position: absolute;
+    top: 0%;
+    left: 47%;    
+}
+
+.square {
+    height: 75px;
+    width: 75px;
+    text-align: center;
+}
+
+.squareSelected:hover {
+    border: 2px solid gray;
+}
+
+.black {
+    background-color: turquoise;
+}
+
+.white {
+    background-color: white;
+}
+
+.numbers {
+    height: 100%;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+
+.letters {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.pieceImg {
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+}
+
+.movable:hover {
+    cursor: pointer;
+}
+
+.clickedSquare {
+    background-color: yellow;
+}
+
+.overImage {
+    position: absolute;
+}
+
+.prev-move {
+    background-color: yellow;
+}
+
+.last-moved{
+    background-color: salmon;
+}
+
+
+  
